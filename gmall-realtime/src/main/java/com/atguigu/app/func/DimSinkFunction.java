@@ -1,11 +1,11 @@
-package com.atguigu.app.func;
+package com.zj.app.func;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.pool.DruidPooledConnection;
 import com.alibaba.fastjson.JSONObject;
-import com.atguigu.util.DimUtil;
-import com.atguigu.util.DruidDSUtil;
-import com.atguigu.util.PhoenixUtil;
+import com.zj.util.DimUtil;
+import com.zj.util.DruidDSUtil;
+import com.zj.util.PhoenixUtil;
 import org.apache.flink.configuration.Configuration;
 import org.apache.flink.streaming.api.functions.sink.RichSinkFunction;
 

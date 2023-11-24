@@ -1,4 +1,4 @@
-package com.atguigu.bean;
+package com.zj.bean;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

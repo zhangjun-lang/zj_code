@@ -1,4 +1,4 @@
-package com.atguigu.util;
+package com.zj.util;
 
 import org.apache.flink.api.common.serialization.SimpleStringSchema;
 import org.apache.flink.api.common.typeinfo.BasicTypeInfo;

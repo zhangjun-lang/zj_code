@@ -1,6 +1,6 @@
-package com.atguigu.app.func;
+package com.zj.app.func;
 
-import com.atguigu.util.keywordUtil;
+import com.zj.util.keywordUtil;
 import org.apache.flink.table.annotation.DataTypeHint;
 import org.apache.flink.table.annotation.FunctionHint;
 import org.apache.flink.table.functions.TableFunction;

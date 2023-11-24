@@ -1,4 +1,4 @@
-package com.atguigu.util;
+package com.zj.util;
 
 public class MysqlUtil {
     public static String getBaseDicLookUpDDL() {

@@ -1,8 +1,8 @@
-package com.atguigu.app.dwd;
+package com.zj.app.dwd;
 
 import com.alibaba.fastjson.JSON;
 
-import com.atguigu.util.MyKafkaUtil;
+import com.zj.util.MyKafkaUtil;
 import org.apache.flink.api.common.restartstrategy.RestartStrategies;
 import org.apache.flink.api.common.time.Time;
 import org.apache.flink.runtime.state.hashmap.HashMapStateBackend;

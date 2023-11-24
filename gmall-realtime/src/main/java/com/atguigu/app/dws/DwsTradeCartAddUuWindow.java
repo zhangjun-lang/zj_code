@@ -1,11 +1,11 @@
-package com.atguigu.app.dws;
+package com.zj.app.dws;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.atguigu.bean.CartAddUuBean;
-import com.atguigu.util.DateFormatUtil;
-import com.atguigu.util.MyClickHouseUtil;
-import com.atguigu.util.MyKafkaUtil;
+import com.zj.bean.CartAddUuBean;
+import com.zj.util.DateFormatUtil;
+import com.zj.util.MyClickHouseUtil;
+import com.zj.util.MyKafkaUtil;
 import org.apache.flink.api.common.eventtime.SerializableTimestampAssigner;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.apache.flink.api.common.functions.ReduceFunction;

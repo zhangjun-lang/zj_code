@@ -1,11 +1,11 @@
-package com.atguigu.app.dim;
+package com.zj.app.dim;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.atguigu.app.func.DimSinkFunction;
-import com.atguigu.app.func.TableProcessFunction;
-import com.atguigu.bean.TableProcess;
-import com.atguigu.util.MyKafkaUtil;
+import com.zj.app.func.DimSinkFunction;
+import com.zj.app.func.TableProcessFunction;
+import com.zj.bean.TableProcess;
+import com.zj.util.MyKafkaUtil;
 
 import com.ververica.cdc.connectors.mysql.source.MySqlSource;
 import com.ververica.cdc.connectors.mysql.table.StartupOptions;

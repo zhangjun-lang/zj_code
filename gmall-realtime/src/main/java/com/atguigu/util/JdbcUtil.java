@@ -1,4 +1,4 @@
-package com.atguigu.util;
+package com.zj.util;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.pool.DruidPooledConnection;

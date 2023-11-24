@@ -1,4 +1,4 @@
-package com.atguigu.util;
+package com.zj.util;
 
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;

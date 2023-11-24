@@ -1,4 +1,4 @@
-package com.atguigu.app.func;
+package com.zj.app.func;
 
 import com.alibaba.fastjson.JSONObject;
 

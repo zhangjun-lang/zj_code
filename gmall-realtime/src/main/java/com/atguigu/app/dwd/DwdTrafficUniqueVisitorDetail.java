@@ -1,10 +1,10 @@
-package com.atguigu.app.dwd;
+package com.zj.app.dwd;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONAware;
 import com.alibaba.fastjson.JSONObject;
-import com.atguigu.util.DateFormatUtil;
-import com.atguigu.util.MyKafkaUtil;
+import com.zj.util.DateFormatUtil;
+import com.zj.util.MyKafkaUtil;
 
 import org.apache.flink.api.common.functions.FlatMapFunction;
 import org.apache.flink.api.common.functions.RichFilterFunction;

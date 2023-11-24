@@ -1,13 +1,13 @@
-package com.atguigu.app.dws;
+package com.zj.app.dws;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.atguigu.app.func.DimAsyncFunction;
-import com.atguigu.bean.TradeProvinceOrderWindow;
-import com.atguigu.util.DateFormatUtil;
-import com.atguigu.util.MyClickHouseUtil;
-import com.atguigu.util.MyKafkaUtil;
-import com.atguigu.util.TimestampLtz3CompareUtil;
+import com.zj.app.func.DimAsyncFunction;
+import com.zj.bean.TradeProvinceOrderWindow;
+import com.zj.util.DateFormatUtil;
+import com.zj.util.MyClickHouseUtil;
+import com.zj.util.MyKafkaUtil;
+import com.zj.util.TimestampLtz3CompareUtil;
 import org.apache.flink.api.common.eventtime.SerializableTimestampAssigner;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.apache.flink.api.common.functions.FlatMapFunction;

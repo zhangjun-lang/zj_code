@@ -1,4 +1,4 @@
-package com.atguigu.common;
+package com.zj.common;
 
 public class GmallConfig {
     // Phoenix库名

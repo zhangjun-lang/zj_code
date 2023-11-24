@@ -1,8 +1,8 @@
-package com.atguigu.util;
+package com.zj.util;
 
 import com.alibaba.druid.pool.DruidPooledConnection;
 import com.alibaba.fastjson.JSONObject;
-import com.atguigu.common.GmallConfig;
+import com.zj.common.GmallConfig;
 import org.apache.commons.lang.StringUtils;
 
 

@@ -1,4 +1,4 @@
-package com.atguigu.util;
+package com.zj.util;
 
 import org.wltea.analyzer.core.IKSegmenter;
 import org.wltea.analyzer.core.Lexeme;

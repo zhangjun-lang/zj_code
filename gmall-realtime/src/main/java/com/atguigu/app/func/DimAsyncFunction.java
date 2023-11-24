@@ -1,13 +1,13 @@
-package com.atguigu.app.func;
+package com.zj.app.func;
 
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.pool.DruidPooledConnection;
 import com.alibaba.fastjson.JSONObject;
-import com.atguigu.bean.TradeUserSpuOrderBean;
-import com.atguigu.util.DimUtil;
-import com.atguigu.util.DruidDSUtil;
-import com.atguigu.util.ThreadPoolUtil;
+import com.zj.bean.TradeUserSpuOrderBean;
+import com.zj.util.DimUtil;
+import com.zj.util.DruidDSUtil;
+import com.zj.util.ThreadPoolUtil;
 import org.apache.flink.configuration.Configuration;
 import org.apache.flink.streaming.api.functions.async.ResultFuture;
 import org.apache.flink.streaming.api.functions.async.RichAsyncFunction;

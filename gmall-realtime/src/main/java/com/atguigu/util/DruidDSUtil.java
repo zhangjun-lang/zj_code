@@ -1,7 +1,7 @@
-package com.atguigu.util;
+package com.zj.util;
 
 import com.alibaba.druid.pool.DruidDataSource;
-import com.atguigu.common.GmallConfig;
+import com.zj.common.GmallConfig;
 
 public class DruidDSUtil {
     private static DruidDataSource druidDataSource;

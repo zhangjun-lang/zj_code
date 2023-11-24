@@ -1,7 +1,7 @@
-package com.atguigu.util;
+package com.zj.util;
 
-import com.atguigu.bean.TransientSink;
-import com.atguigu.common.GmallConfig;
+import com.zj.bean.TransientSink;
+import com.zj.common.GmallConfig;
 import lombok.SneakyThrows;
 import org.apache.flink.connector.jdbc.JdbcConnectionOptions;
 import org.apache.flink.connector.jdbc.JdbcExecutionOptions;

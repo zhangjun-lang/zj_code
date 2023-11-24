@@ -1,7 +1,7 @@
-package com.atguigu.app.dwd;
+package com.zj.app.dwd;
 
-import com.atguigu.util.MyKafkaUtil;
-import com.atguigu.util.MysqlUtil;
+import com.zj.util.MyKafkaUtil;
+import com.zj.util.MysqlUtil;
 import org.apache.flink.api.common.restartstrategy.RestartStrategies;
 import org.apache.flink.api.common.time.Time;
 import org.apache.flink.configuration.Configuration;

@@ -1,9 +1,9 @@
-package com.atguigu.app.dws;
+package com.zj.app.dws;
 
-import com.atguigu.app.func.SplitFunction;
-import com.atguigu.bean.KeywordBean;
-import com.atguigu.util.MyClickHouseUtil;
-import com.atguigu.util.MyKafkaUtil;
+import com.zj.app.func.SplitFunction;
+import com.zj.bean.KeywordBean;
+import com.zj.util.MyClickHouseUtil;
+import com.zj.util.MyKafkaUtil;
 import org.apache.flink.connector.jdbc.JdbcSink;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
